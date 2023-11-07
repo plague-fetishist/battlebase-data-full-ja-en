@@ -1,5 +1,53 @@
 [
   {
+    "id": "setup-rule-muster-armies",
+    "body": "Players first muster their armies, as described in the Core Rules. Remember, all details of a players army must be recorded on their Army Roster."
+  },
+  {
+    "id": "setup-rule-determine-mission",
+    "body": "Players split the cards into their respective decks: Deployment deck: Mission Rule deck; Primary Mission deck; Secondary Mission decks (one for the Attacker, one for the Defender); Gambit decks (one for the Attacker, one for the Defender). Set aside the Secondary Mission and Gambit decks (players will receive these later).\n                    \nPlayers determine their mission by shuffling and randomly drawing one card from the Deployment, Mission Rule and Primary Mission decks."
+  },
+  {
+    "id": "setup-rule-read-mission",
+    "body": "Next players read the Primary Mission and Mission Rule cards they have drawn.\n                \nThe Primary Mission card details how and when players score Victory pointe (VP). Players wil also score VP by achieving Secondary Missions and Gambits, which are detailed later. Some Primary Mission cards also include additional rules that wil apply to the battle.\n                \nThe Mission Rule card details any special rules that apply for the duration of the battle. Players should read and familiarise themselves with these before proceeding,"
+  },
+  {
+    "id": "setup-rule-place-objective-markers",
+    "body": "Players now set up objective markers on the battlefield. Each Deployment card's deployment map wil show players how many objective markers to set up and where each should be placed."
+  },
+  {
+    "id": "setup-rule-create-the-battlefield",
+    "body": "Players now create the bettlefield and set up terrain features.\n\nMissions are played on rectangular battlefields whose dimensions are approximately 44\" by 60\". This can be achieved by placing four Battlezone boards flat on a surface next to each other.\n\nUnless otherwise stated, when setting up terrain features, use the guidelines deteiled in the Core Rules. Players must use the rules for terrain features detailed in the Core Rules. Terrain features should not be set up with any impassable sections (such as the walls of a ruin) within 1\" of any objective markers."
+  },
+  {
+    "id": "setup-rule-determine-attacker-and-defender",
+    "body": "Players consult the Deployment card drawn for the mission and agree which battlefield edge is the Attacker's and which is the Defender's. The players then roll off and the winner decides who will be the Attacker and who will be the Defender this will determine which player uses which deployment zone in the coming battle.\n\nPlayers take their respective Secondary Mission and Gambit deck, shuffle them and place them nearby for later."
+  },
+  {
+    "id": "setup-rule-select-secondary-missions",
+    "body": "There are two Secondary Mission decks (one for the Attacker, one for the Defender), meaning players can draw the same Secondary Missions. These describe goals that players con achieve to score VP. Each Secondary Mission card will detail when and how it is achieved, as well as how many VP that player scores for achieving it.\n\nEach player must now choose whether to use Fixed or Tactical Missions during the battle. To do so, each player first takes their respective Secondary Mission deck. If a player wishes to use Fixed Missions, that player secretly selects two Fixed Mission cards (denoted by the Fixed Mission symbol), from their Secondary Mission deck and places them face down on the battlefield. If a player wishes to use Tactical Missions, they should instead select any two Secondary Mission cards from their deck that do not have the Fixed Mission symbol and place them face down on the battlefield. Once both players have done so, players reveal their selections.\n\nIf a player selects two Fixed Mission cards, those Secondary Mission cards are active in every battle round during the battle, and can be achieved and scored in every battle round. The remainder of their Secondary Mission deck will not be used in the coming battle and can be placed to one side.\n\nPlayers' selected Fixed Mission cards cannot be discarded for any reason.\n\nIf a player did not select two Fixed Mission cards, then they will use Tactical Missions in the coming battle and they should now reshuffle their Secondary Mission deck. At the start of each of that player's Command phases, that player must determine which Secondary Mission cards are active for them by drawing cards from their Secondary Mission deck; if they have fewer than two active Secondary Mission cards, they draw from their Secondary Mission deck until they have two Secondary Mission cards. That player has access to the New Orders Stratagem (see overleaf), and can spend CP to use it after drawing their Secondary Mission cards if they wish. If a player's Secondary Mission deck runs out, they cannot generate any additional Secondary Missions during the battle. Each time that player achieves a Secondary Mission, after scoring the VP described on that card, that Secondary Mission is then discarded."
+  },
+  {
+    "id": "setup-rule-declare-battle-formations",
+    "body": "In the order below, both players secretly note\n\n• Which of their Leader units wil start the battle attached [they must specify which Leader unit is attached to which Bodyguard unit)\n• Which of their units wil start the battle embarked within TRANSPORT models (they must specify which units are embarked within which models)\n• Which of their Units wil start the battle in Reserves (including Strategic Reserves) No more than half the number of units in a player's army can start the battle ni Reserves, and the combined points total of those units cannot be more than half the total of their army Units embarked within a TRANSPORT that is set up in Reserves also count as being set up in Reserves for these limito.\n\nWhen both players have done so, they deciare their selections ot their opponent.\n\nReserves units cannot arrive during the first battle round and any Strategic Reserves or Reserves units that have not arrived on the battlefield by the end of the third battle round count as having been destroyed, as do any units embarked within them (this does not apply to units that are placed into Strategic Reserves after the first battle round has started)"
+  },
+  {
+    "id": "setup-rule-deploy-armies",
+    "body": "Players alternate setting up their remaining units one at atime, starting with the Defender. A player's models must be set up wholly within their deployment zone. If one player finishes deploying all their units, their opponent then deploys the remainder of their units."
+  },
+  {
+    "id": "setup-rule-determine-first-turn",
+    "body": "Players roll off and the winner takes the first turn."
+  },
+  {
+    "id": "setup-rule-resolve-pre-battle-abilities",
+    "body": "Players alternate resolving any pre-battle rules units from their army may have, starting with the player who will take the first turn."
+  },
+  {
+    "id": "setup-rule-begin-the-battle",
+    "body": "The first battle round begins. Players continue to resolve battle rounds until the battle ends.\n\nAt the end of each player's turn, if that player is using Tactical Mission, they can discard one or more of their active Secondary Mission cards. If they do, and if it is not the fifth battle round, that player gains 1CP. This represents high command diverting strategic resources that had been allocated to now-obsolete objectives to instead engage new targets of opportunity.\n\nAt the end of the third battle round, players generate Gambits."
+  },
+  {
     "id": "mission-leviathan-take-and-hold",
     "lore": "Several strategic locations have been identified in your vicinity. You are ordered to assault these positions, secure them and hold them at any cost.",
     "body": "In the second, third, and fourth battle rounds:\n  \nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control [up to 15VP per turn].\n\nIn the fifth battle round:\n\nThe player who has the first turn scores VP as described above. The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
@@ -7,7 +55,7 @@
   {
     "id": "mission-leviathan-scorched-earth",
     "lore": "What cannot be secured must be burned to ash.",
-    "body": "From the second battle round, in each player's Shooting phase, the player whoe turn it is can selected on unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the start of its controlling player's next Command phase, if that unit is within 1\" of an objective marker that the player whose turn it is controls, that objective marker is burned and removed from the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn ti is scores SVP for each objective marker they control (up ot 10VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase.\n\n    At the end of the battle:\n    \n    Each player scores 5VP if one or more objective markers in No Man's Land were burned by a unit from their army, and 10VP if the objective marker in their opponent's deployment zone was burned."
+    "body": "From the second battle round, in each player's Shooting phase, the player whoe turn it is can selected on unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the start of its controlling player's next Command phase, if that unit is within 1\" of an objective marker that the player whose turn it is controls, that objective marker is burned and removed from the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn ti is scores SVP for each objective marker they control (up ot 10VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase.\n\nAt the end of the battle:\n\nEach player scores 5VP if one or more objective markers in No Man's Land were burned by a unit from their army, and 10VP if the objective marker in their opponent's deployment zone was burned."
   },
   {
     "id": "mission-leviathan-purge-the-foe",
@@ -17,7 +65,7 @@
   {
     "id": "mission-leviathan-sites-of-power",
     "lore": "There is great power for those bold enough to claim it.",
-    "body": "The objective markers in No Mans' Land are sites of power. At the end of each Command phase, the player whose turn it is empowers all sites of power that they control that have one or more CHARACTER models from their army within range; each site of power remains empowered by that player while one or more of their CHARACTER models remains within range of it.\n    \n    In the second, third and fourth battle rounds:\n    \n    At the end of each player's Command phase, the player whose turn it is scores VP as follows (up to 15VP per turn):\n• 3VP for each objective marker they control.\n• 3VP for each site of power that they have empowered.\nNote that these arc cumulative, so a player that controls one objective marker they have also empowered will score 6VP that turn.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
+    "body": "The objective markers in No Mans' Land are sites of power. At the end of each Command phase, the player whose turn it is empowers all sites of power that they control that have one or more CHARACTER models from their army within range; each site of power remains empowered by that player while one or more of their CHARACTER models remains within range of it.\n    \nIn the second, third and fourth battle rounds:\n    \nAt the end of each player's Command phase, the player whose turn it is scores VP as follows (up to 15VP per turn):\n\n• 3VP for each objective marker they control.\n• 3VP for each site of power that they have empowered.\nNote that these arc cumulative, so a player that controls one objective marker they have also empowered will score 6VP that turn.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
   },
   {
     "id": "mission-leviathan-the-ritual",
@@ -32,7 +80,7 @@
   {
     "id": "mission-leviathan-supply-drop",
     "lore": "Supplies are inbound Secure the drop coordinates.",
-    "body": "At the start of the battle, players randomly select two different objective markers in No Man's Land: the first selected is the Alpha objective, the second selected is the Omega objective. At the start of the fourth battle round, the Alpha objective is removed from the battlefield At the start of the fifth battle round, all objective markers in No Mans' Land apart from the Omega objective are also removed.\n    \n    In the second and third battle rounds:\n    \n    At the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control in No Man's Land.\n    \n    In the fourth battle round:\n    \n    At the end of each Command phase, the player whose turn it is scores 8VP for each objective marker they control in No Man's Land.\n    \n    At the end of the battle:\n    \n    • The player who has the first turn scores 15VP at the end of their Command phase if they control the objective marker in No Man's Land.\n• The player who has the second turn scores 15VP at the end of their turn if they control the objective marker in No Man's Land."
+    "body": "At the start of the battle, players randomly select two different objective markers in No Man's Land: the first selected is the Alpha objective, the second selected is the Omega objective. At the start of the fourth battle round, the Alpha objective is removed from the battlefield At the start of the fifth battle round, all objective markers in No Mans' Land apart from the Omega objective are also removed.\n    \nIn the second and third battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control in No Man's Land.\n\nIn the fourth battle round:\n\nAt the end of each Command phase, the player whose turn it is scores 8VP for each objective marker they control in No Man's Land.\n\nAt the end of the battle:\n\n• The player who has the first turn scores 15VP at the end of their Command phase if they control the objective marker in No Man's Land.\n• The player who has the second turn scores 15VP at the end of their turn if they control the objective marker in No Man's Land."
   },
   {
     "id": "mission-leviathan-deploy-servo-skulls",
@@ -122,7 +170,7 @@
   {
     "id": "secondary-mission-engage-on-all-fronts",
     "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "\nAt the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters.While a unit is Battle-shocked, it is not a qualifying unit.\n    \nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n    \nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
+    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters.While a unit is Battle-shocked, it is not a qualifying unit.\n    \nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n    \nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
   },
   {
     "id": "secondary-mission-storm-hostile-objective",
@@ -147,7 +195,7 @@
   {
     "id": "secondary-mission-no-prisoners",
     "lore": "Exterminate your enemies.",
-    "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\n      Note that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+    "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
   },
   {
     "id": "secondary-mission-extend-battle-lines",
@@ -156,13 +204,13 @@
   },
   {
     "id": "secondary-mission-defend-stronghold",
-    "lore": "You are charged with the defence of a keg objective. It must not be permitted to fall into enemy hands.",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
     "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\n    This Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
   },
   {
     "id": "secondary-mission-overwhelming-force",
     "lore": "Scour the enemy from the face of the battlefield.",
-    "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\n    Note that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+    "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
   },
   {
     "id": "secondary-mission-secure-no-mans-land",
