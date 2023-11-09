@@ -108,7 +108,7 @@
     "body": "In this mission:\n• Players' units with the Infiltrators ability cannot be set up within range of an objective marker\nthat is either in No Man's Land or their opponent's deployment zone.\n• Players' units with the Scouts ability that make a move before the first turn begins cannot end that move within range of on objective marker that is either in No Man's Land or their opponent's deployment zone.\n• If any rule is used to redeploy a unit, that rule cannot be used to set up that unit within range of an objective marker in No Man's Land.\n• When a player's Reserves and Strategic Reserves units are set up on the battlefield, they cannot be set up within range of an objective marker that is either in No Man's Land or their opponent's deployment zone."
   },
   {
-    "id": "mission-rule-leviathan-maelstron-of-battle",
+    "id": "mission-rule-leviathan-maelstrom-of-battle",
     "lore": "Little respire or sanctuary is available across the battlefields of the 41st Millennium.",
     "body": "In this mission, shuffle the remaining Mission Rule cards together before drewing 2 new Mission Rule cards.\n\nIf either of these new Mission Rule cards is Chilling Rain, discard that Mission Rule card and draw 2 additional new Mission Rule cards (for a total of 3 new Mission Rule cards).\n\nApply all the drawn Mission Rule cards to the battle."
   },
