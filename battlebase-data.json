@@ -5,11 +5,11 @@
   },
   {
     "id": "setup-rule-determine-mission",
-    "body": "Players split the cards into their respective decks: Deployment deck: Mission Rule deck; Primary Mission deck; Secondary Mission decks (one for the Attacker, one for the Defender); Gambit decks (one for the Attacker, one for the Defender). Set aside the Secondary Mission and Gambit decks (players will receive these later).\n                    \nPlayers determine their mission by shuffling and randomly drawing one card from the Deployment, Mission Rule and Primary Mission decks."
+    "body": "Players split the cards into their respective decks: Deployment deck: Mission Rule deck; Primary Mission deck; Secondary Mission decks (one for the Attacker, one for the Defender); Gambit decks (one for the Attacker, one for the Defender). Set aside the Secondary Mission and Gambit decks (players will receive these later).\n\nPlayers determine their mission by shuffling and randomly drawing one card from the Deployment, Mission Rule and Primary Mission decks."
   },
   {
     "id": "setup-rule-read-mission",
-    "body": "Next players read the Primary Mission and Mission Rule cards they have drawn.\n                \nThe Primary Mission card details how and when players score Victory pointe (VP). Players wil also score VP by achieving Secondary Missions and Gambits, which are detailed later. Some Primary Mission cards also include additional rules that wil apply to the battle.\n                \nThe Mission Rule card details any special rules that apply for the duration of the battle. Players should read and familiarise themselves with these before proceeding,"
+    "body": "Next players read the Primary Mission and Mission Rule cards they have drawn.\n\nThe Primary Mission card details how and when players score Victory pointe (VP). Players wil also score VP by achieving Secondary Missions and Gambits, which are detailed later. Some Primary Mission cards also include additional rules that wil apply to the battle.\n\nThe Mission Rule card details any special rules that apply for the duration of the battle. Players should read and familiarise themselves with these before proceeding,"
   },
   {
     "id": "setup-rule-place-objective-markers",
@@ -225,7 +225,7 @@
   {
     "id": "secondary-mission-a-tempting-target",
     "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
-    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\n    At the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score SVP."
+    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score SVP."
   },
   {
     "id": "secondary-mission-capture-enemy-outpost",
