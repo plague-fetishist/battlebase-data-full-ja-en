@@ -9,7 +9,7 @@
   },
   {
     "id": "setup-rule-read-mission",
-    "body": "Next players read the Primary Mission and Mission Rule cards they have drawn.\n\nThe Primary Mission card details how and when players score Victory pointe (VP). Players wil also score VP by achieving Secondary Missions and Gambits, which are detailed later. Some Primary Mission cards also include additional rules that wil apply to the battle.\n\nThe Mission Rule card details any special rules that apply for the duration of the battle. Players should read and familiarise themselves with these before proceeding,"
+    "body": "Next players read the Primary Mission and Mission Rule cards they have drawn.\n\nThe Primary Mission card details how and when players score Victory points (VP). Players wil also score VP by achieving Secondary Missions and Gambits, which are detailed later. Some Primary Mission cards also include additional rules that wil apply to the battle.\n\nThe Mission Rule card details any special rules that apply for the duration of the battle. Players should read and familiarise themselves with these before proceeding,"
   },
   {
     "id": "setup-rule-place-objective-markers",
@@ -48,6 +48,10 @@
     "body": "The first battle round begins. Players continue to resolve battle rounds until the battle ends.\n\nAt the end of each player's turn, if that player is using Tactical Mission, they can discard one or more of their active Secondary Mission cards. If they do, and if it is not the fifth battle round, that player gains 1CP. This represents high command diverting strategic resources that had been allocated to now-obsolete objectives to instead engage new targets of opportunity.\n\nAt the end of the third battle round, players generate Gambits."
   },
   {
+    "id": "setup-rule-gambits",
+    "body": "There are two Gambit decks (one for each player) with identical cards. These contain challenging goals that players can attempt to achieve by the and of the battle instead of attempting to score any more VP from their Primary Mission.\n\nAt the end of the third battle round, before starting the next battle round, players can generate Gambits and choose whether to attempt to achieve one.\n\nEach player takes their Gambit deck and removes the Proceed as Planned card, placing it to one side, before shuffling the remaining Gambit cards and randomly discarding one. Each player then adds their Proceed as Planned card back in, to have a hand containing three cards.\n\nPlayers then secretly choose one of these three cards and place ti face down on the battlefield. Once both players have done so, they reveal their choice.\n\nIf a player reveals their Proceed as Planned card, they are not attempting a Gambit ni this bottle and continue ot score VP for achieving the goals as listed on their Primary Mission card.\n\nOtherwise, the player is attempting a Gambit, and until the end of the battle that player cannot score any more VP as described on their Primary Mission card (any VP scored\nso far are kept). Instead, at the end of the battle, if they successfully completed the goal described on the Gambit card, they score VP as detailed on that Gambit card."
+  },
+  {
     "id": "mission-leviathan-take-and-hold",
     "lore": "Several strategic locations have been identified in your vicinity. You are ordered to assault these positions, secure them and hold them at any cost.",
     "body": "In the second, third, and fourth battle rounds:\n  \nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control [up to 15VP per turn].\n\nIn the fifth battle round:\n\nThe player who has the first turn scores VP as described above. The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
@@ -55,7 +59,7 @@
   {
     "id": "mission-leviathan-scorched-earth",
     "lore": "What cannot be secured must be burned to ash.",
-    "body": "From the second battle round, in each player's Shooting phase, the player whoe turn it is can selected on unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the start of its controlling player's next Command phase, if that unit is within 1\" of an objective marker that the player whose turn it is controls, that objective marker is burned and removed from the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn ti is scores SVP for each objective marker they control (up ot 10VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase.\n\nAt the end of the battle:\n\nEach player scores 5VP if one or more objective markers in No Man's Land were burned by a unit from their army, and 10VP if the objective marker in their opponent's deployment zone was burned."
+    "body": "From the second battle round, in each player's Shooting phase, the player whoe turn it is can selected on unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the start of its controlling player's next Command phase, if that unit is within 1\" of an objective marker that the player whose turn it is controls, that objective marker is burned and removed from the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control (up ot 10VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase.\n\nAt the end of the battle:\n\nEach player scores 5VP if one or more objective markers in No Man's Land were burned by a unit from their army, and 10VP if the objective marker in their opponent's deployment zone was burned."
   },
   {
     "id": "mission-leviathan-purge-the-foe",
@@ -70,7 +74,7 @@
   {
     "id": "mission-leviathan-the-ritual",
     "lore": "Bitter foes clash in a race to finish a ritual to cither sanctify or corrupt the battlefield.",
-    "body": "When setting up the battlefield, remove all objective markers in No Man's Land except the one closest to the centre of the battlefield.\n    \nIn each player's Shooting phase, the player whose turn it is can select one unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the end of that turn, the player whose turn it is can set up one objective marker wholy within No Man's Land and within 1\" of that unit provided it can be set up exactly 9\" from one other objective marker and not within 6\" of any other objective marker.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores SVP for each objective marker in No Man's Land they control (up to 15VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
+    "body": "When setting up the battlefield, remove all objective markers in No Man's Land except the one closest to the centre of the battlefield.\n    \nIn each player's Shooting phase, the player whose turn it is can select one unit from their army that is not Battle-shocked and is eligible to shoot. Until the end of that turn, that unit is not eligible to shoot or declare a charge. At the end of that turn, the player whose turn it is can set up one objective marker wholy within No Man's Land and within 1\" of that unit provided it can be set up exactly 9\" from one other objective marker and not within 6\" of any other objective marker.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker in No Man's Land they control (up to 15VP per turn).\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
   },
   {
     "id": "mission-leviathan-priority-targets",
@@ -90,7 +94,7 @@
   {
     "id": "mission-leviathan-deploy-vital-ground",
     "lore": "The most vital ground in the region is in enemy hands.",
-    "body": "If you draw this and the Hidden Supplies Mission Rule card, discard this card and draw anew Primary Mission card.\nAfter setting pu the battlefield, remove the objective marker in No Man s Land that is closest to the centre of the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores VP as follows:\n• If they control the objective marker in their own deployment zone, they score 2VP\n• For each objective marker in No Mans' Land that they control, they score SVP.\n• If they control the objective marker in their opponent's deployment zone, they score 6VP.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
+    "body": "If you draw this and the Hidden Supplies Mission Rule card, discard this card and draw a new Primary Mission card.\n\nAfter setting up the battlefield, remove the objective marker in No Man s Land that is closest to the centre of the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores VP as follows:\n• If they control the objective marker in their own deployment zone, they score 2VP\n• For each objective marker in No Mans' Land that they control, they score 5VP.\n• If they control the objective marker in their opponent's deployment zone, they score 6VP.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
   },
   {
     "id": "mission-rule-leviathan-chilling-rain",
@@ -105,7 +109,7 @@
   {
     "id": "mission-rule-leviathan-scrambler-fields",
     "lore": "Scrambler fields and more esoteric devices have been activated in this area, restricting the use of advanced stealth and teleportation technologies.",
-    "body": "In this mission:\n• Players' units with the Infiltrators ability cannot be set up within range of an objective marker\nthat is either in No Man's Land or their opponent's deployment zone.\n• Players' units with the Scouts ability that make a move before the first turn begins cannot end that move within range of on objective marker that is either in No Man's Land or their opponent's deployment zone.\n• If any rule is used to redeploy a unit, that rule cannot be used to set up that unit within range of an objective marker in No Man's Land.\n• When a player's Reserves and Strategic Reserves units are set up on the battlefield, they cannot be set up within range of an objective marker that is either in No Man's Land or their opponent's deployment zone."
+    "body": "In this mission:\n\n• Players' units with the Infiltrators ability cannot be set up within range of an objective marker\nthat is either in No Man's Land or their opponent's deployment zone.\n• Players' units with the Scouts ability that make a move before the first turn begins cannot end that move within range of on objective marker that is either in No Man's Land or their opponent's deployment zone.\n• If any rule is used to redeploy a unit, that rule cannot be used to set up that unit within range of an objective marker in No Man's Land.\n• When a player's Reserves and Strategic Reserves units are set up on the battlefield, they cannot be set up within range of an objective marker that is either in No Man's Land or their opponent's deployment zone."
   },
   {
     "id": "mission-rule-leviathan-maelstrom-of-battle",
@@ -125,7 +129,7 @@
   {
     "id": "mission-rule-leviathan-hidden-supplies",
     "lore": "Reconnaissance Units have uncovered a hidden cache of ammunition, fuel and rations in this war zone.",
-    "body": "In this mission, players must set up one additional objective marker in No Man's Land.\n\n  Unless the Chosen Battlefield mission rule is also in effect, before setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the comers of the battlefield (if No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners). Players then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker."
+    "body": "In this mission, players must set up one additional objective marker in No Man's Land.\n\nUnless the Chosen Battlefield mission rule is also in effect, before setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the comers of the battlefield (if No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners). Players then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker."
   },
   {
     "id": "mission-rule-leviathan-chosen-battlefield",
@@ -225,7 +229,7 @@
   {
     "id": "secondary-mission-a-tempting-target",
     "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
-    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score SVP."
+    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
   },
   {
     "id": "secondary-mission-capture-enemy-outpost",
@@ -2055,5 +2059,25 @@
     "targetRules": "One of your active Secondary Mission cards.",
     "effectRules": "Discard it and draw one new Secondary Mission card.",
     "restrictionRules": "You can only use this Stratagem once per battle."
+  },
+  {
+    "id": "gambit-proceed-as-planned",
+    "lore": "Your battle plan is unfolding as you had foreseen, and the time to stake the fatal blow is almost at hand. Stay the course, and victory is all but assured.",
+    "body": "If you select this Gambit card, you have chosen not to attempt a gambit.\n    \nUntil the end of the battle, you continue to score VP from your Primary Mission."
+  },
+  {
+    "id": "gambit-delaying-tactics",
+    "lore": "The whole battle was a ruse to buy our covert kill teams the time they need to successfully complete a mission that could turn the tide of the entire war.",
+    "body": "DETERMINE DISTRACTION TARGET: Your Distraction target will be equal to half the number of enemy units that are within Engagement Range of one or more units from your army (rounding up) at the end of your fifth turn. If your Distraction target is less than 4, it is increased to 4.\n\nDISTRACT ENEMY UNITS: At the end of your fifth turn, roll one D6 for each enemy unit that is within Engagement Range of one or more units from your army. Add 1 to the result if that enemy unit is Battle-shocked and subtract 1 if one or more of the units from your army that are within Engagement Range of it are Battle-shocked. On a 4+, that enemy unit has been successfully delayed.\n\nDETERMINE GAMBIT SUCCESS: If the number of enemy units that have been successfully delayed is greater than or equal to your Distraction target, this Gambit is successfully completed and you score 30VP."
+  },
+  {
+    "id": "gambit-emergency-evacuation",
+    "lore": "Remaining in this battlezone is folly. Teleportahums are being sanctified and orbital transports are inbound to exfiltrate what forces remain. Prepare for immediate extraction.",
+    "body": "DETERMINE EVACUATION TARGET: Your Evacuation target will be equal to half the number of units from your army that are on the battlefield at the end of the battle (rounding up), including units embarked within TRANSPORT models that are on the battlefield. If your Evacuation target is less than 4, it is increased to 4.\n\nEVACUATE UNITS: At the end of your fifth turn, roll one D6 for each unit from your army that is wholly within 6\" of the centre of the battlefield, subtracting 1 from the result if that unit is Battle shocked. On a 4+, that unit (and any units embarked within it) are marked for evacuation.\n\nDETERMINE GAMBIT SUCCESS: If the number of your units that are marked for evacuation is greater than or equal to your Evacuation target, this Gambit is successfully completed and you score 30VP."
+  },
+  {
+    "id": "gambit-orbital-strike-coordinates",
+    "lore": "Remaining in this battlezone is folly. Teleportahums are being sanctified and orbital transports are inbound to exfiltrate what forces remain. Prepare for immediate extraction.",
+    "body": "At the end of your fifth turn, if one or more units from your army that are not Battle-shocked are wholly within 9\" of a corner of the battlefield, and those units are not within your own deployment zone, roll 2D6.\n\nAdd 1 to the result for every other corner of the battlefield that has one or more units from your army wholly within 9\" of it (excluding units that are Battle-shocked or within Engagement Range of any enemy units).\n\nIf the final result is 12 or more, this Gambit is successfully completed and you score 30VP."
   }
 ]
