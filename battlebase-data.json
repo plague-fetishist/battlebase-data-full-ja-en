@@ -616,8 +616,8 @@
     "id": "stratagem-aeldari-phantasm",
     "lore": "The Aeldari are masters of misdirection, and they employ holo-emitters and psychic phantasms to fool enemy scouts.",
     "whenRules": "End of your opponent’s Movement phase.",
-    "targetRules": "One Aeldari unit from your army.",
-    "effectRules": "Your unit can make a Normal move of up to 7\". It cannot embark within a Transport at the end of this move.",
+    "targetRules": "One Aeldari Infantry unit from your army.",
+    "effectRules": "Your unit can make a Normal move of up to D6\". It cannot embark within a Transport at the end of this move.",
     "restrictionRules": "You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem."
   },
   {
@@ -872,8 +872,8 @@
     "id": "stratagem-heretic-astartes-profane-zeal",
     "lore": "Fervent mortal followers flock to the champions of Chaos, damning their souls seeking promises of dark power.",
     "whenRules": "Your Shooting phase or the Fight phase.",
-    "targetRules": "One Heretic Astartes unit from your army that has not been selected to shoot or fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If your unit is a Chaos Undivided unit, you can instead re-roll the Hit roll and you can re-roll the Wound roll for that attack.",
+    "targetRules": "One Heretic Astartes Chaos Undivided unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
     "restrictionRules": null
   },
   {
@@ -905,7 +905,7 @@
     "lore": "Choking fogs echoing with the screams of tortured souls; dense clouds of bloated flies; deluges of bloody rain; whirlwinds of coruscating flames blazing in a thousand hues. Such warp-born phenomena can appear on the battlefield in an instant, and disappear just as quickly. All serve to obscure the Heretic Astartes from their terrified foes.",
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+    "effectRules": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
     "restrictionRules": null
   },
   {
@@ -1025,7 +1025,7 @@
     "lore": "Hellfire rounds douse their targets in voracious acids that are utterly lethal to organic life.",
     "whenRules": "Your Shooting phase.",
     "targetRules": "Up to two Kill Team units from your army that have not been selected to shoot this phase, or one other Adeptus Astartes unit from your army (excluding Vehicles) that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
+    "effectRules": "Until the end of the phase, bolt weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
     "restrictionRules": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase."
   },
   {
@@ -1033,7 +1033,7 @@
     "lore": "Kraken rounds utilise adamantine cores and improved propellants to penetrate the thickest hide.",
     "whenRules": "Your Shooting phase.",
     "targetRules": "Up to two Kill Team units from your army that have not been selected to shoot this phase, or one other Adeptus Astartes unit from your army (excluding Vehicles) that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the range characteristic of those weapons by 6\".",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of bolt weapons equipped by models in your unit by 1 and improve the range characteristic of those weapons by 6\".",
     "restrictionRules": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase."
   },
   {
@@ -1041,7 +1041,7 @@
     "lore": "Dragonfire rounds are designed to explode just before contact, saturating foes in cover with searing gas and flames.",
     "whenRules": "Your Shooting phase.",
     "targetRules": "Up to two Kill Team units from your army that have not been selected to shoot this phase, or one other Adeptus Astartes unit from your army (excluding Vehicles) that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
+    "effectRules": "Until the end of the phase, bolt weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
     "restrictionRules": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase."
   },
   {
