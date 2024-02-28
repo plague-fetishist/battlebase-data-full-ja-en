@@ -25,7 +25,7 @@
   },
   {
     "id": "setup-rule-select-secondary-missions",
-    "body": "There are two Secondary Mission decks (one for the Attacker, one for the Defender), meaning players can draw the same Secondary Missions. These describe goals that players con achieve to score VP. Each Secondary Mission card will detail when and how it is achieved, as well as how many VP that player scores for achieving it.\n\nEach player must now choose whether to use Fixed or Tactical Missions during the battle. To do so, each player first takes their respective Secondary Mission deck. If a player wishes to use Fixed Missions, that player secretly selects two Fixed Mission cards (denoted by the Fixed Mission symbol), from their Secondary Mission deck and places them face down on the battlefield. If a player wishes to use Tactical Missions, they should instead select any two Secondary Mission cards from their deck that do not have the Fixed Mission symbol and place them face down on the battlefield. Once both players have done so, players reveal their selections.\n\nIf a player selects two Fixed Mission cards, those Secondary Mission cards are active in every battle round during the battle, and can be achieved and scored in every battle round. The remainder of their Secondary Mission deck will not be used in the coming battle and can be placed to one side.\n\nPlayers' selected Fixed Mission cards cannot be discarded for any reason.\n\nIf a player did not select two Fixed Mission cards, then they will use Tactical Missions in the coming battle and they should now reshuffle their Secondary Mission deck. At the start of each of that player's Command phases, that player must determine which Secondary Mission cards are active for them by drawing cards from their Secondary Mission deck; if they have fewer than two active Secondary Mission cards, they draw from their Secondary Mission deck until they have two Secondary Mission cards. That player has access to the New Orders Stratagem (see overleaf), and can spend CP to use it after drawing their Secondary Mission cards if they wish. If a player's Secondary Mission deck runs out, they cannot generate any additional Secondary Missions during the battle. Each time that player achieves a Secondary Mission, after scoring the VP described on that card, that Secondary Mission is then discarded."
+    "body": "There are two Secondary Mission decks (one for the Attacker, one for the Defender), meaning players can draw the same Secondary Missions. These describe goals that players can achieve to score VP. Each Secondary Mission card will detail when and how it is achieved, as well as how many VP that player scores for achieving it.\n\nEach player must now choose whether to use Fixed or Tactical Missions during the battle. To do so, each player first takes their respective Secondary Mission deck. If a player wishes to use Fixed Missions, that player secretly selects two Fixed Mission cards (denoted by the Fixed Mission symbol), from their Secondary Mission deck and places them face down on the battlefield. If a player wishes to use Tactical Missions, they should instead select any two Secondary Mission cards from their deck that do not have the Fixed Mission symbol and place them face down on the battlefield. Once both players have done so, players reveal their selections.\n\nIf a player selects two Fixed Mission cards, those Secondary Mission cards are active in every battle round during the battle, and can be achieved and scored in every battle round. The remainder of their Secondary Mission deck will not be used in the coming battle and can be placed to one side.\n\nPlayers' selected Fixed Mission cards cannot be discarded for any reason.\n\nIf a player did not select two Fixed Mission cards, then they will use Tactical Missions in the coming battle and they should now reshuffle their Secondary Mission deck. At the start of each of that player's Command phases, that player must determine which Secondary Mission cards are active for them by drawing cards from their Secondary Mission deck; if they have fewer than two active Secondary Mission cards, they draw from their Secondary Mission deck until they have two Secondary Mission cards. That player has access to the New Orders Stratagem (see overleaf), and can spend CP to use it after drawing their Secondary Mission cards if they wish. If a player's Secondary Mission deck runs out, they cannot generate any additional Secondary Missions during the battle. Each time that player achieves a Secondary Mission, after scoring the VP described on that card, that Secondary Mission is then discarded."
   },
   {
     "id": "setup-rule-declare-battle-formations",
@@ -124,7 +124,7 @@
   {
     "id": "mission-rule-leviathan-targets-of-opportunity",
     "lore": "This battle zone is replete with tactical targets of opportunity, ideal for warlords who are eager for glory.",
-    "body": "In this mission, if a player is using Tactical Missions, then each time that player determines which Secondary Mission cards are active for them, if they have fewer than 3 active Secondary Mission cards, that player draws from their Secondary Mission deck until they have 3Secondary Mission cards.\n\nIn this mission, if a player is using Fixed Missions, then in addition to the 2 Fixed Mission cards, that player wil also draw cards from their Secondary Mission deck during the battle. At the end of the Select Secondary Missions step, that player should retrieve their Secondary Mission deck, remove all the Fixed Mission cards that they did not select at the start of that step, then shuffle the remaining cards. Then, at the start of each of that player's Command phases, if that player has fewer than 3 active Secondary Mission cards (including their Fixed Mission cards), they draw from their Secondary Mission deck until they have 3 Secondary Mission cards That player has access to the New Orders Stratagem, and can spend CP to use it after drawing their Secondary Mission cards if they wish (remember that Fixed Mission cards cannot be discarded for any reason)."
+    "body": "In this mission, if a player is using Tactical Missions, then each time that player determines which Secondary Mission cards are active for them, if they have fewer than 3 active Secondary Mission cards, that player draws from their Secondary Mission deck until they have 3 Secondary Mission cards.\n\nIn this mission, if a player is using Fixed Missions, then in addition to the 2 Fixed Mission cards, that player wil also draw cards from their Secondary Mission deck during the battle. At the end of the Select Secondary Missions step, that player should retrieve their Secondary Mission deck, remove all the Fixed Mission cards that they did not select at the start of that step, then shuffle the remaining cards. Then, at the start of each of that player's Command phases, if that player has fewer than 3 active Secondary Mission cards (including their Fixed Mission cards), they draw from their Secondary Mission deck until they have 3 Secondary Mission cards. That player has access to the New Orders Stratagem, and can spend CP to use it after drawing their Secondary Mission cards if they wish (remember that Fixed Mission cards cannot be discarded for any reason)."
   },
   {
     "id": "mission-rule-leviathan-hidden-supplies",
@@ -157,84 +157,100 @@
     "body": "In this mission, each time an Advance roll of 6 is made for a unit, that unit suffers 1 mortal wound."
   },
   {
-    "id": "secondary-mission-behind-enemy-lines",
-    "lore": "Break through the foe's army and cut of their lines of escape.",
-    "body": "At the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n    \nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
-  },
-  {
-    "id": "secondary-mission-assassination",
-    "lore": "The enemy look ot their champions for courage. Identify and eliminate them with extreme prejudice.",
-    "body": "If you are using Fixed Missions, then while this Secondary Mission is active, each time an enemy CHARACTER model is destroyed, you score 4VP.\n\nIf you are using Tactical Missions, then at the end of the turn, if either of the conditions below are satisfied, this Secondary Mission is achieved and you score 5VP:\n• One or more enemy CHARACTER units were destroyed during this turn.\n• All CHARACTER units from your opponent's Army Roster have been destroyed during the battle.\n\nNote that if you are using Tactical Missions, this Secondary Mission is achieved even if such a unit was destroyed and then subsequently resurrected for any reason."
-  },
-  {
-    "id": "secondary-mission-bring-it-down",
-    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
-    "body": "While this Secondary Mission is active, each time an enemy MONSTER or VEHICLE model is destroyed, you score 2VP and an extra 1VP for each of the conditions below that are satisfied (all are cumulative]:\n■ The destroyed model had a Wounds characteristic of 10+.\n■ The destroyed model had a Wounds characteristic of 15+.\n■ The destroyed model had a Wounds characteristic of 20+.\n\nNote that VP are scored even if such a model is destroyed and then subsequently resurrected for any reason. if you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP However, if you are using Tactical Missions, you cannot score more than 8VP in total from this Secondary Mission."
-  },
-  {
-    "id": "secondary-mission-engage-on-all-fronts",
-    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters.While a unit is Battle-shocked, it is not a qualifying unit.\n    \nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n    \nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
-  },
-  {
-    "id": "secondary-mission-storm-hostile-objective",
-    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
-    "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective\nmarkers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
-  },
-  {
-    "id": "secondary-mission-cleanse",
-    "lore": "The objectives in this area have been tainted and must be cleansed with ritual and purifying flame.",
-    "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible to shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each objective marker that is not within your deployment zone that you control that has one or more of these selected units within range is cleansed by your army.\n\nIf one or more objective markers are cleansed by your army this turn, this Secondary Mission is achieved and you score a number of VP depending on the number of objective markers cleansed by your army this turn, as follows:\n\n■ 1 objective marker cleansed = 2VP if you are using Fixed Missions, or 3VP if you are using Tactical Missions.\n■ 2 or more objective markers cleansed = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions.\n"
-  },
-  {
-    "id": "secondary-mission-deploy-teleport-homer",
-    "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
-    "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
-  },
-  {
-    "id": "secondary-mission-investigate-signals",
-    "lore": "Our fleet has received a mysterious signal in this war zone, and its source has been identified as originating somewhere in the vicinity of this battlefield. Locate and secure it without delay.",
-    "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible ot shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each corner of the battlefield that has one or more of these selected units wholly within 9\" of it is scanned by your army.\n\nIf one or more corners are scanned by your army, this Secondary Mission is achieved and you score 2VP for each corner scanned by your army this turn."
-  },
-  {
-    "id": "secondary-mission-no-prisoners",
-    "lore": "Exterminate your enemies.",
-    "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
-  },
-  {
-    "id": "secondary-mission-extend-battle-lines",
-    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
-    "body": "At the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
-  },
-  {
-    "id": "secondary-mission-defend-stronghold",
-    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
-    "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
-  },
-  {
-    "id": "secondary-mission-overwhelming-force",
-    "lore": "Scour the enemy from the face of the battlefield.",
-    "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
-  },
-  {
-    "id": "secondary-mission-secure-no-mans-land",
-    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
-    "body": "At the end of your turn, if you control two or more objective markers in No Man's Land, this Secondary Mission is achieved and you score 5VP.\n    \nIf, at the end of your turn, you only control one objective marker in No Man's Land, this Secondary Mission is still achieved, but in this instance you score 2VP instead of 5VP.\n"
+    "id": "secondary-mission-a-tempting-target",
+    "title": "魔力的な標的 | A Tempting Target",
+    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
+    "body": "この副次任務がドローされた際、対戦相手は中立地帯に存在する作戦目標マーカーを1つ指定しなければならない。\n\n自軍側ターン終了時、選択された作戦目標マーカーを自軍が確保しているならば、自軍はこの副次任務を達成し、5VPを獲得する。\n\nWhen this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
   },
   {
     "id": "secondary-mission-area-denial",
+    "title": "侵入拒否 | Area Denial",
     "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
-    "body": "At the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6 of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondery Mission is achieved and you score 5VP.\n\n    If, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
+    "body": "自軍側ターン終了時、戦闘ショック状態ではない自軍側ユニット 1個以上が戦場の中心の6mv以内に全体が収まっており、戦場の中心の6mv以内に全体が収まっている敵ユニットが1個も存在しない場合、この副次任務は達成され、自軍は4VPを獲得する。\n\n自軍側ターン終了時、戦場の中心の6mv以内に全体が収まっている敵ユニットが1個以上存在し、しかし戦場の中心の 3mv以内には敵ユニットが1個も存在しない場合、それでもこの副次任務は達成されるが、その場合自軍は5VPではなく3VPを獲得する。\n\nAt the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6 of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondery Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
   },
   {
-    "id": "secondary-mission-a-tempting-target",
-    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
-    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
+    "id": "secondary-mission-assassination",
+    "title": "暗殺 | Assassination",
+    "lore": "The enemy look ot their champions for courage. Identify and eliminate them with extreme prejudice.",
+    "body": "自軍が確定任務を使用している場合、この副次任務がアクティヴである間、敵キャラクターが撃破されるたび、自軍は4VPを獲得する。\n\n自軍が流動任務を使用している場合、そのターンの終了時、以下の条件のうちいずれかが満たされているならば、この副次任務は達成され、自軍は5VPを獲得する：\n\n■このターン中に敵キャラクター・ユニット 1個以上が全滅した。\n\n■ このバトル中、敵軍側アーミーロスターに編入されているすべてのキャラクター・ユニットが全滅した。\n\nなお、流動任務を使用している場合、これらのユニットが全滅し、その後に何らかの理由で復活した場合でも、この副次任務は達成したものとして扱われる。\n\nIf you are using Fixed Missions, then while this Secondary Mission is active, each time an enemy CHARACTER model is destroyed, you score 4VP.\n\nIf you are using Tactical Missions, then at the end of the turn, if either of the conditions below are satisfied, this Secondary Mission is achieved and you score 5VP:\n• One or more enemy CHARACTER units were destroyed during this turn.\n• All CHARACTER units from your opponent's Army Roster have been destroyed during the battle.\n\nNote that if you are using Tactical Missions, this Secondary Mission is achieved even if such a unit was destroyed and then subsequently resurrected for any reason."
+  },
+  {
+    "id": "secondary-mission-behind-enemy-lines",
+    "title": "敵戦線突破 | Behind Enemy Lines",
+    "lore": "Break through the foe's army and cut of their lines of escape.",
+    "body": "自軍側ターン終了時、2個以上の自軍側ユニット（航空機・ユニットを除く）が、敵軍側初期配置ゾーン内に全体が収まっている場合、自軍はこの副次任務を達成し、4VPを獲得する。\n\n自軍側ターン終了時、敵軍側初期配置ゾーン内に全体が収まっているユニット（航空機・ユニットを除く）が1個だけであるならば、その場合もこの副次任務は達成されるが、その場合自軍は4VPではなく 2VPを獲得する。\n\n自軍が流動任務を使用している場合、この副次任務が達成されたときに自軍は追加で1VPを獲得する（合計で最大5VP）。\n\nAt the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n\nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
+  },
+  {
+    "id": "secondary-mission-bring-it-down",
+    "title": "打倒せよ | Bring It Down",
+    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
+    "body": "この副次任務がアクティヴである間、モンスターおよびビークルの歳兵が1体撃破されるたび、自三は2VPを獲得し、その歌が下記の条件を］個満たすごとに追加でIVPを獲得する（すべての条件は積みなる）。\n\n■撃破された兵の【負傷限界】が10以上である。\n■ 撃破された兵の【食限】が15以上である。\n■撃破された兵の【食傷限界】が20以上である。\nなお、たとえある兵が警破され、その後で何らかの理由により復活した場合も、VPは通常通り獲参される。このターン中に自がこの副次任務から1点以上のVPを獲得していた場合、そのターンの終了時にこの割次伝務は成される。\n\n自が流動任務を使用している場合、この副次任務が、成されたとき、言は追加で1VPを獲得する。しかし自事が流動年務を使用している場合、車がこの副次任務から獲得可能なVPは最大で8VPまでである。\n\nWhile this Secondary Mission is active, each time an enemy MONSTER or VEHICLE model is destroyed, you score 2VP and an extra 1VP for each of the conditions below that are satisfied (all are cumulative]:\n■ The destroyed model had a Wounds characteristic of 10+.\n■ The destroyed model had a Wounds characteristic of 15+.\n■ The destroyed model had a Wounds characteristic of 20+.\n\nNote that VP are scored even if such a model is destroyed and then subsequently resurrected for any reason. if you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP However, if you are using Tactical Missions, you cannot score more than 8VP in total from this Secondary Mission."
   },
   {
     "id": "secondary-mission-capture-enemy-outpost",
-    "lore": "Avital objective has been identified in your vicinity, but it is currently held by the enemy. You are ordered to capture ti at any cost.",
-    "body": "At the end of your turn, if you control one or more objective markers in your opponent's deployment zone, this Secondary Mission is achieved and you score 8VP."
+    "title": "敵前哨地の占領 | Capture Enemy Outpost",
+    "lore": "A vital objective has been identified in your vicinity, but it is currently held by the enemy. You are ordered to capture ti at any cost.",
+    "body": "自軍側ターン終了時、敵軍側初期配置ゾーン内に配置されている作戦目標マーカーを1個以上確保している場合、自軍はこの副次任務を達成し、8VPを獲得する。\n\nAt the end of your turn, if you control one or more objective markers in your opponent's deployment zone, this Secondary Mission is achieved and you score 8VP."
+  },
+  {
+    "id": "secondary-mission-cleanse",
+    "title": "浄化 | Cleanse",
+    "lore": "The objectives in this area have been tainted and must be cleansed with ritual and purifying flame.",
+    "body": "自軍側射撃フェイズ中、戦闘ショック状態ではなく、かつ射撃を宣言可能な状態である自軍側ユニットを1個以上選択してもよい。自軍側ターン終了時まで、選択されたユニットは射や突撃を営言できない。\n\n自軍側ターン終了時、自軍側初期配置ゾーン外に存在する自軍が確保している各作戦目標マーカーで、その確保範囲内にこれらの選択されたユニットが1個以上存在する作戦目標マーカーは、自軍側によって浄化されたものとしてみなされる。\n\nこのターン中に1個以上の作戦目標マーカーが自軍によって浄化された場合、自軍はこの副次任務を運成し、以下の記述に従って、このターン中に自軍が浄化した作戦目標マーカーの数に応じたVPを獲得する：\n\n■ 浄化した作戦目標マーカー：1個\n= 2VP（確定任務）、3VP（流動任務）\n■ 浄化した作戦目標マーカー：2個以上\n=4VP（確定任務）、5VP（流動任務）\n\nIn your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible to shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each objective marker that is not within your deployment zone that you control that has one or more of these selected units within range is cleansed by your army.\n\nIf one or more objective markers are cleansed by your army this turn, this Secondary Mission is achieved and you score a number of VP depending on the number of objective markers cleansed by your army this turn, as follows:\n\n■ 1 objective marker cleansed = 2VP if you are using Fixed Missions, or 3VP if you are using Tactical Missions.\n■ 2 or more objective markers cleansed = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions.\n"
+  },
+  {
+    "id": "secondary-mission-defend-stronghold",
+    "title": "防衛拠点 | Defend Stronghold",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
+    "body": "敵軍側ターン終了時またはバトル終了時（いずれか早い方）に、自軍が自軍側初期配置ゾーン内の作戦目標マーカーを1個以上確保している場合、自軍はこの副次任務を達成し、3VPを獲得する。\n\n第1バトルラウンド中、この副次任務を達成することはできない。第1バトルラウンド中にこの副次任務がドローされた場合、新たな副次任務をドローせよ。その後、このカードを副次任務デッキに戻してシャッフルを行なうこと。\n\nAt the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+  },
+  {
+    "id": "secondary-mission-deploy-teleport-homer",
+    "title": "テレポート誘導装置設置 | Deploy Teleport Homer",
+    "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
+    "body": "自軍側射撃フェイズ中、戦闘ショック状態ではなく、かつ射撃を宣言可能な状態である自軍側ユニットを1個選択してもよい。自軍側ターン終了時まで、選択されたユニットは射撃や突撃を宣言できない。\n\n自軍側ターン終了時、そのユニットが敵軍側初期配置ゾーン内にいるか、あるいは戦場の中心の6mv 以内にいるならば、そのユニットはその場所にテレポート誘導装置を配置し、この副次任務は達成され、自軍はそのテレポート誘導装置が配置された場所に応じたVPを以下のように獲得する。\n\n■ 戦場の中心\n=2VP（確定任務）、3VP（流動任務）\n■ 敵軍側初期配置ゾーン\n=4VP（確定任務）、5VP（流動任務）\n\nIn your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
+  },
+  {
+    "id": "secondary-mission-engage-on-all-fronts",
+    "title": "全面闘争 | Engage on All Fronts",
+    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
+    "body": "自事側ターン了時、戦場を4分割したエリアのうち３つ以上のエリアに、条件を満たしている１個以上の自軍側ユニット（下記参照）が各エリア内に全体が収まっており、かつそれらのユニットが他の4分割エリアから3mvより遠く離れているならば、自軍はこの副次任務を達成する。自軍が4個の異なるエリアで条件を満たしているならば4VPを、3個の異なるエリアで条件を満たしているならば2VPを獲得する。\n\n条件を満たしているユニットとは、初期兵数が3体以上であるユニット、あるいは1体以上のモンスターまたはビークルの兵を含むユニットである。戦闘ショック状態であるユニットは、条件を満たしているユニットとして扱われない。\n\nこの副次任務カードをドローした時点で、条件を満たすユニットが自軍に1個あるいは2個しか存在しない場合、自軍はこの副次任務カードを破棄して、あらたな副次任務カードをドローしてもよい。\n\n自軍が流動任務を使用している場合、この副次任務が達成されたときに自軍は追加で1VPを獲得する（合計で最大5VP）。\n\nAt the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters.While a unit is Battle-shocked, it is not a qualifying unit.\n    \nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
+  },
+  {
+    "id": "secondary-mission-extend-battle-lines",
+    "title": "戦線を拡大せよ | Extend Battle Lines",
+    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
+    "body": "自軍側ターン終了時、自軍側初期配置ゾーン内に配置されている作戦目標マーカーを1個以上確保しており、かつ中立地帯に存在する作戦目標マーカーを1個以上確保している場合、自軍はこの副次任務を達成し、5VPを獲得する。\n\n自軍に残っているユニットが1個だけの場合、上記の条件の代わりに、そのユニットが自軍側ターン終了時に中立地帯に存在する作戦目標マーカーを1個確保しているならば、この副次任務は達成される。ただし、その場合は5VPではなく 2VPを獲得する。\n\nAt the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
+  },
+  {
+    "id": "secondary-mission-investigate-signals",
+    "title": "信号調查 | Investigate Signals",
+    "lore": "Our fleet has received a mysterious signal in this war zone, and its source has been identified as originating somewhere in the vicinity of this battlefield. Locate and secure it without delay.",
+    "body": "三号側封フェイズ中、戦製ショック状態ではなく、かつ撃を言可能な状態であるミ側】ニットを1台以上選択してもよい。三側ターン終工まで、選択されたユニットは撃や突響を豆目できない。\n\n目事側ターン装了時、場の各習張の9mV以内に合体が収まるように、これらの選択されたユニットか1個以上容をする場合、その場の際限は自事によって査されたものとして扱われる。\n\n自事によって戦場のご張が1個以上走されたならば、この三文車務を成され、そのターンテに自事が売した義の21個につき、自はそれぞれ2VPを獲得する。\n\nIn your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible ot shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each corner of the battlefield that has one or more of these selected units wholly within 9\" of it is scanned by your army.\n\nIf one or more corners are scanned by your army, this Secondary Mission is achieved and you score 2VP for each corner scanned by your army this turn."
+  },
+  {
+    "id": "secondary-mission-no-prisoners",
+    "title": "捕虜など要らぬ | No Prisoners",
+    "lore": "Exterminate your enemies.",
+    "body": "この副次任務がアクティヴである間、敵ユニットが全滅するたび、自軍は 2VPを獲得する（合計で最大5VPまで）。\n\nなお、そのような敵ユニットが全滅したあとで何らかの理由により復活した場合も、自軍はVPを獲得する。自軍がこの副次任務からこのターン中にVPを獲得したならば、そのターンの終了時にこの副次任務は達成されたとみなされる。\n\nWhile this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+  },
+  {
+    "id": "secondary-mission-overwhelming-force",
+    "title": "圧倒的な力 | Overwhelming Force",
+    "lore": "Scour the enemy from the face of the battlefield.",
+    "body": "この副次任務がアクティヴである間、ターン開始時に作戦目標の確保範囲内にいたユニットが全滅するたび、自軍は3VPを獲得する（合計で最大5VPまで。\n\nなお、そのような敵ユニットが全滅したあとで何らかの理由により復活した場合も、自はVPを獲得する。自車がこの副次任務からこのターン中にVPを獲得したならば、そのターンの終了時にこの副次任務は達成されたとみなされる。\n\nWhile this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+  },
+  {
+    "id": "secondary-mission-secure-no-mans-land",
+    "title": "中立地帯の確保 | Secure No Man's Land",
+    "lore": "高が普場全体を支配するのを防ぐには、迅速に中立地帯に進軍し、占拠しなければならない。| You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
+    "body": "自事側ターン了時、中立地帯に存在する作目標マーカーを自軍が2個以上確保しているならば、自はこの副次任務を達成し、5VPを獲得する。\n\n自事側ターン終了時、中立地帯に存在する作戦目標マーカーを自軍が1個のみ確保していた場合も、この副次任務は達成されるが、その場合自軍は5VPではなく2VPを獲得する。\n\nAt the end of your turn, if you control two or more objective markers in No Man's Land, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, you only control one objective marker in No Man's Land, this Secondary Mission is still achieved, but in this instance you score 2VP instead of 5VP.\n"
+  },
+  {
+    "id": "secondary-mission-storm-hostile-objective",
+    "title": "敵の目標を強襲せよ | Storm Hostile Objective",
+    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
+    "body": "自車側ターン終了時、以下の条件のいずれかが満たされている場合、自軍はこの副次任務を達成し、自軍が確定任務を使用している場合4VP、自軍が流動任務を使用している場合 5VPを獲得する：\n\n■ 自軍側ターン開始時に対戦相手が確保していた1個以上の作戦目標マーカーを自軍側が確保している。\n■自車側ターン開始時に対戦相手が作戦目標マーカーを1個も確保しておらず、敵軍側初期配置ゾーン内の作戦目標を自軍側が確保している。\n\nAt the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective\nmarkers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
   },
   {
     "id": "stratagem-adepta-sororitas-divine-intervention",
@@ -2543,21 +2559,24 @@
   {
     "id": "gambit-proceed-as-planned",
     "lore": "Your battle plan is unfolding as you had foreseen, and the time to stake the fatal blow is almost at hand. Stay the course, and victory is all but assured.",
-    "body": "If you select this Gambit card, you have chosen not to attempt a gambit.\n    \nUntil the end of the battle, you continue to score VP from your Primary Mission."
+    "body": "If you select this Gambit card, you have chosen not to attempt a gambit.\n\nUntil the end of the battle, you continue to score VP from your Primary Mission."
   },
   {
     "id": "gambit-delaying-tactics",
+    "title": "妨害工作 | Delaying Tactics",
     "lore": "The whole battle was a ruse to buy our covert kill teams the time they need to successfully complete a mission that could turn the tide of the entire war.",
-    "body": "DETERMINE DISTRACTION TARGET: Your Distraction target will be equal to half the number of enemy units that are within Engagement Range of one or more units from your army (rounding up) at the end of your fifth turn. If your Distraction target is less than 4, it is increased to 4.\n\nDISTRACT ENEMY UNITS: At the end of your fifth turn, roll one D6 for each enemy unit that is within Engagement Range of one or more units from your army. Add 1 to the result if that enemy unit is Battle-shocked and subtract 1 if one or more of the units from your army that are within Engagement Range of it are Battle-shocked. On a 4+, that enemy unit has been successfully delayed.\n\nDETERMINE GAMBIT SUCCESS: If the number of enemy units that have been successfully delayed is greater than or equal to your Distraction target, this Gambit is successfully completed and you score 30VP."
+    "body": "妨害目標数の決定：自軍側の妨害目標数は、自軍側の第5ターン終了時に、自軍側ユニット1個以上の接敵範囲内にいる敵ユニットの個数の半数（数切り上げ）に等しい。自軍の妨害目標数が4未満の場合は、4に増加する。\n\n敵ユニットの妨害：自軍第 5ターン終了時、ユニット 1個以上の接敵範囲内にいる各敵ユニットに対して、それぞれD6を個ロールせよ。ロール対象の敵ユニットが戦闘ショック状態である場合、ロール結果は+1の修正を受ける。ロール対象の敵ユニットの接敵範囲内に、戦闘シミック状態である自車側ユニットが1個以上存在する場合、ロール結果は-1の修正を受ける。ロール結果が4+であれば、ロール対象の敵ユニットの妨害に成功したものとして扱われる。\n\n戦術成功判定：妨害に成功した敵ユニットの個数が、自軍側の妨害目標数以上であるならば、この戦術は成功し、自軍は30VPを獲得する。\n\nDETERMINE DISTRACTION TARGET: Your Distraction target will be equal to half the number of enemy units that are within Engagement Range of one or more units from your army (rounding up) at the end of your fifth turn. If your Distraction target is less than 4, it is increased to 4.\n\nDISTRACT ENEMY UNITS: At the end of your fifth turn, roll one D6 for each enemy unit that is within Engagement Range of one or more units from your army. Add 1 to the result if that enemy unit is Battle-shocked and subtract 1 if one or more of the units from your army that are within Engagement Range of it are Battle-shocked. On a 4+, that enemy unit has been successfully delayed.\n\nDETERMINE GAMBIT SUCCESS: If the number of enemy units that have been successfully delayed is greater than or equal to your Distraction target, this Gambit is successfully completed and you score 30VP."
   },
   {
     "id": "gambit-emergency-evacuation",
+    "title": "緊急撤収 | Emergency Evacuation",
     "lore": "Remaining in this battlezone is folly. Teleportahums are being sanctified and orbital transports are inbound to exfiltrate what forces remain. Prepare for immediate extraction.",
-    "body": "DETERMINE EVACUATION TARGET: Your Evacuation target will be equal to half the number of units from your army that are on the battlefield at the end of the battle (rounding up), including units embarked within TRANSPORT models that are on the battlefield. If your Evacuation target is less than 4, it is increased to 4.\n\nEVACUATE UNITS: At the end of your fifth turn, roll one D6 for each unit from your army that is wholly within 6\" of the centre of the battlefield, subtracting 1 from the result if that unit is Battle shocked. On a 4+, that unit (and any units embarked within it) are marked for evacuation.\n\nDETERMINE GAMBIT SUCCESS: If the number of your units that are marked for evacuation is greater than or equal to your Evacuation target, this Gambit is successfully completed and you score 30VP."
+    "body": "撤収目標数の決定：自軍の撤収目標数は、このバトル終了時に戦場に存在する自軍側ユニットの半数（端数切り上げ）に等しい。このユニット数には、戦場に存在する兵員輸送の兵に乗無中のユニットも含まれる。自軍の撤収目標数が4未満の場合は、4に増加する。\n\nユニットの撤収：自軍側第5ターン終了時、戦場の中心の6mv以内に全体が収まっている各自軍側ユニットに対して、それぞれD6を1個ロールせよ。ロール対象のユニットが戦闘ショック状態の場合、ロール結果は-1の修正を受ける。ロール結果が4+であれば、ロール対象のユニットと、そのユニットに乗車中のユニットは戦場から撤収したものとして扱われる。\n\n戦術成功判定：戦場から撤収した自軍側ユニットの個数が、撤収目標数以上であるならば、この戦術は成功し、自軍は 30VPを獲得する。\n\nDETERMINE EVACUATION TARGET: Your Evacuation target will be equal to half the number of units from your army that are on the battlefield at the end of the battle (rounding up), including units embarked within TRANSPORT models that are on the battlefield. If your Evacuation target is less than 4, it is increased to 4.\n\nEVACUATE UNITS: At the end of your fifth turn, roll one D6 for each unit from your army that is wholly within 6\" of the centre of the battlefield, subtracting 1 from the result if that unit is Battle shocked. On a 4+, that unit (and any units embarked within it) are marked for evacuation.\n\nDETERMINE GAMBIT SUCCESS: If the number of your units that are marked for evacuation is greater than or equal to your Evacuation target, this Gambit is successfully completed and you score 30VP."
   },
   {
     "id": "gambit-orbital-strike-coordinates",
+    "title": "軌道強襲座標の送信 | Orbital Strike Coordinates",
     "lore": "Remaining in this battlezone is folly. Teleportahums are being sanctified and orbital transports are inbound to exfiltrate what forces remain. Prepare for immediate extraction.",
-    "body": "At the end of your fifth turn, if one or more units from your army that are not Battle-shocked are wholly within 9\" of a corner of the battlefield, and those units are not within your own deployment zone, roll 2D6.\n\nAdd 1 to the result for every other corner of the battlefield that has one or more units from your army wholly within 9\" of it (excluding units that are Battle-shocked or within Engagement Range of any enemy units).\n\nIf the final result is 12 or more, this Gambit is successfully completed and you score 30VP."
+    "body": "自事第5ターン終了時、戦関ショック状態ではなく、戦場の四房のいずれかの9mv以内に全体が収まっており、かつ自軍側初期配置ゾーン外にいる状態の自軍側ユニットが1個以上存在するならば、2D6をロールせよ。\n\n戦場の他の四の9mv以内に全体が収まっている自車側ユニットが1個以上存在するならば、そのような戦場の四陽1つにつき、ロール結果は＋1の修正を受ける。（戦闘ショック状態のユニットや、敵ユニットの接散範囲内に収まっている状態のユニットを除く）。\n\n最終的なロール結果が12以上であれば、この戦術は成功し、自車は30VPを獲得する。\n\nAt the end of your fifth turn, if one or more units from your army that are not Battle-shocked are wholly within 9\" of a corner of the battlefield, and those units are not within your own deployment zone, roll 2D6.\n\nAdd 1 to the result for every other corner of the battlefield that has one or more units from your army wholly within 9\" of it (excluding units that are Battle-shocked or within Engagement Range of any enemy units).\n\nIf the final result is 12 or more, this Gambit is successfully completed and you score 30VP."
   }
 ]
